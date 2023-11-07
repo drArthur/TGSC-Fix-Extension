@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "TGSC CSS Fix",
+    "version": "1.0",
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.thegoodscentscompany.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.thegoodscentscompany.com/*"
+            ],
+            "css": [
+                "cssFix.css"
+            ]
+        }
+    ]
+}
