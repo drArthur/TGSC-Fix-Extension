@@ -11,10 +11,18 @@
     "content_scripts": [
         {
             "matches": [
+                "https://www.thegoodscentscompany.com/data*"
+            ],
+            "css": [
+                "ingredient.css"
+            ]
+        },
+        {
+            "matches": [
                 "https://www.thegoodscentscompany.com/*"
             ],
             "css": [
-                "cssFix.css"
+                "demos.css"
             ]
         }
     ]
