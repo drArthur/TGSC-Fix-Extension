@@ -3,7 +3,6 @@
     "name": "TGSC CSS Fix",
     "version": "1.0",
     "permissions": [
-        "scripting"
     ],
     "host_permissions": [
         "https://www.thegoodscentscompany.com/*"
